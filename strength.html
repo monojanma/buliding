@@ -1,14 +1,15 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Real Space</title>
+<title>Real Estate </title>
 <!---css--->
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <!---css--->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Motorola web design" />
+<meta name="keywords" content="Real Space Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!---js--->
 <script src="js/jquery-1.11.1.min.js"></script>
@@ -19,32 +20,20 @@
 <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
 <!---fonts-->
-<script src="js/responsiveslides.min.js"></script>
-	 <script>
-		$(function () {
-		  $("#slider").responsiveSlides({
-			auto:true,
-			nav: false,
-			speed: 500,
-			namespace: "callbacks",
-			pager:true,
-		  });
-		});
-	</script>
-<link href="css/owl.carousel.css" rel="stylesheet">
-<script src="js/owl.carousel.js"></script>
-	<script>
-		$(document).ready(function() {
-		$("#owl-demo").owlCarousel({
-			items : 1,
-			lazyLoad : true,
-			autoPlay : true,
-			navigation : false,
-			navigationText :  false,
-			pagination : true,
-		});
-		});
-	</script>
+<!-- FlexSlider -->
+	 <script src="js/jquery.flexslider.js"></script>
+		<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+			<script>
+			// Can also be used with $(document).ready()
+				$(window).load(function() {
+				$('.flexslider').flexslider({
+				animation: "slide",
+				controlNav: "thumbnails"
+				});
+				});
+			</script>
+			<!-- //FlexSlider-->
+
 <style>
 ul li:hover ul{
 	display:block;
@@ -66,14 +55,13 @@ ul li:hover ul{
 						<div class="email">
 						<ul>
 							<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>Email: <a href="mailto:info@example.com">info@example.com</a> </li>
-							<li><i class="glyphicon glyphicon-phone" aria-hidden="true"></i>Phone: <a href="mailto:info@example.com">+123456789</a> </li>
-							<!--<li><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
-							<li><i class="glyphicon glyphicon-lock" aria-hidden="true"></i><a href="#" data-toggle="modal" data-target="#myModal1">Register</a></li>-->
+							<li><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
+							<li><i class="glyphicon glyphicon-lock" aria-hidden="true"></i><a href="#" data-toggle="modal" data-target="#myModal1">Register</a></li>
 						</ul>
 						</div>
 						<div class="clearfix"></div>
 					</div>
-					<nav class="navbar navbar-default">
+						<nav class="navbar navbar-default">
 					<!---Brand and toggle get grouped for better mobile display--->
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -83,7 +71,7 @@ ul li:hover ul{
 								<span class="icon-bar"></span>
 							</button>				  
 							<div class="navbar-brand">
-								<h1><a href="index.html"><span>Bivab </span>Developers</a></h1>
+								<h1><a href="index.html"><span>Real </span>Estate</a></h1>
 							</div>
 						</div>
 
@@ -119,16 +107,17 @@ ul li:hover ul{
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
 											<ul class="dropdown-menu">
 													<li><a href="ongoing.html">On-going Project</a></li>
-
-												<li><a href="upcoming.html">Upcoming Projects</a></li>
-												<li><a href="completed.html">Completed Projects</a></li>
+           											<li><a href="#">Upcoming Projects</a></li>
+												<li><a href="#">Completed Projects</a></li>
 											</ul>
 									</li>
 									<li class="dropdown ">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Residential<span class="caret"></span></a>
-											<ul class="dropdown-menu">
-											<li><a href="#">Bivab Aangan</a></li>
-											</ul>
+											<!--<ul class="dropdown-menu">
+											<li><a href="defaultvariation.html">Default – Variation</a></li>
+												<li><a href="agentinsidebarvariation.html">Agent in Sidebar - Variation</a></li>
+												<li><a href="galleryvariation.html">Gallery - Variation</a></li>
+											</ul>-->
 									</li>
 									<li class="dropdown ">
 									
@@ -141,14 +130,14 @@ ul li:hover ul{
 									</li>
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tools <span class="caret"></span></a>
-											<ul class="dropdown-menu">
-											<li><a href="emi.html">EMI Calculator</a></li>
-												<li><a href="check.html">Checklist of Loan</a></li>
-												<li><a href="faq.html">FAQ</a></li>
-											</ul>
+											<!--<ul class="dropdown-menu">
+											<li><a href="defaultvariation.html">Default – Variation</a></li>
+												<li><a href="agentinsidebarvariation.html">Agent in Sidebar - Variation</a></li>
+												<li><a href="galleryvariation.html">Gallery - Variation</a></li>
+											</ul>-->
 									</li>
 								
-								<li><a href="contac.html">Contact</a></li>
+								<li><a href="contact.html">Contact</a></li>
 							</ul>
 						<!--	<div class="phone">
 							<span><i class="glyphicon glyphicon-phone" aria-hidden="true"></i>1-999-4563-555</span>
@@ -157,196 +146,172 @@ ul li:hover ul{
 						</div>
 					</nav>
 				</div>
-				
 			</div>
-			
 		<!---header--->
 		<!---banner--->
-		<div class="slider">
-			<div class="callbacks_container">
-				<ul class="rslides" id="slider">
-					<div class="slid banner1">
-						  <!--<div class="caption">
-								<h3>1400 Anastasia Avenue</h3>
-								<p>Live odia dolor sit amet, consectetur adipiscing elit. Donec nec pellentesque ex. Morbi iaculis mi in varius auctor. Nullam feugiat erat .</p>
-								<a href="#" class="button">know more</a>
-						  </div>-->
-					</div>
-					<div class="slid banner2">	
-						 <!-- <div class="caption">
-								<h3>Oakland, NJ94605</h3>
-								<p>Live odia dolor sit amet, consectetur adipiscing elit. Donec nec pellentesque ex. Morbi iaculis mi in varius auctor. Nullam feugiat erat .</p>
-								<a href="#" class="button">know more</a>
-						  </div>-->
-					</div>
-					<div class="slid banner3">	
-						<!--<div class="caption">
-							<h3>Florida 5, Pinecrest, FL</h3>
-							<p>Live odia dolor sit amet, consectetur adipiscing elit. Donec nec pellentesque ex. Morbi iaculis mi in varius auctor. Nullam feugiat erat .</p>
-							<a href="#" class="button">know more</a>
-						</div>-->
-					</div>
-				</ul>
+		<div class="banner-section">
+			<div class="container">
+				
 			</div>
 		</div>
-		
+		<!---banner--->
 		<div class="content">
-			<div class="properties-section">
+			<div class="about-section">
 				<div class="container">
-				<div class="properties-grids">
-					<div class="col-md-9 forsales-left">
-						<div class="forsale">
-														
-										<div class="forsale-grids">
-											<h4><a href="#"></a></h4>
-											<div class="forsale1">
-												<!--<div class="forsale-left">
-													<a href="#"><img src="images/p3.jpg" class="img-responsive" alt="/"></a>
-												</div>-->
-												<div class="forsale-right">
-													<h5>Bivab Developers Pvt. Ltd</h5>
-													<p>In the span of last 16 years Bivab developers pvt. Ltd. has been emerged as number one choice in Odisha for its finest products for it's several completed projects in strategic locations with timely delivery ,quality construction & state of the art architecture.</p>
-												<button type="button" class="btn btn-info" style="float:right">Read more</button>
-
-												</div>
-												<div class="clearfix"></div>
-												
-											</div>
-										</div>		
-										<div class="forsale-grids">
-											<div class="forsale-right">
-													<h5>Featured Properties</h5>
-												<div class="feature-grids">
-													<div class="col-md-4 feature-grid">
-														<img src="images/f1.jpg" class="img-responsive" alt="/">
-														<h5>BIVAB AANGAN</h5>
-														
-													</div>
-													<div class="col-md-4 feature-grid">
-														<img src="images/f2.jpg" class="img-responsive" alt="/">
-														<h5>BIVAB AANGAN</h5>
-														
-													</div>
-													<div class="col-md-4 feature-grid">
-														<img src="images/f2.jpg" class="img-responsive" alt="/">
-														<h5>BIVAB AANGAN</h5>
-														
-													</div>
-													<div class="clearfix"></div>
-						                        </div>
+					<div class="about-grids">
+						<div class="col-md-9 about-grid">
 				
-												</div>
-												<div class="clearfix"></div>
-											</div>
-										</div>	
+                               <div class="idxpres-grids">
+								<div class="idxpres1">
+									<div class="idxpres-right">
+										<h5>Strength</h5>
+										<div class="idxpresright-bottom">
+											<p>The Trust of satisfied customers of the completed projects due to our value added services through sustained endeavour and their evaluation to the performance of Bivab Developers Pvt. Ltd. are among the real estate & developer's of Odisha is our strength to move forword.</p>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>	
+							<div class="idxpres-grids">
+								<div class="idxpres1">
+									
+									<div class="idxpres-right">
+										<h5>Mission</h5>
+										<div class="idxpresright-bottom">
+											<p>To carry on business of Builders & Developers, Architects & project Management consultants in & out of Odisha.</p>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>	
+							<div class="idxpres-grids">
+								<div class="idxpres1">
+									<div class="idxpres-right">
+										<h5>Support</h5>
+										<div class="idxpresright-bottom">
+										   <p>OUR SUPPORT FOR PEACE OF MIND OF OUR CUSTOMER</p>
+											<ul>
+											<li><i class="glyphicon glyphicon-chevron-right"></i>We provide the loans at the requirement of prospective customers from the leading financial institutions, tied up with the projects.</li>
+											<li><i class="glyphicon glyphicon-chevron-right"></i>Exclusive transportation facility is provided from the project sites to the city centers.</li>
+											<li><i class="glyphicon glyphicon-chevron-right"></i>We acknowledge the responsibilities of the society maintenance charge for ten years from the date of handing over of property for the peace of mind of our customers.</li>
+											</ul>
 											
-							</div>
-						</div>
-					<div class="col-md-3 properties-right">
-					
-						<div class="feature">
-							<h4>Our Foot Print</h4>
-							<marquee behavior="scroll" direction="up" onmousedown="this.stop();" onmouseup="this.start();" HEIGHT=350>
-							<div class="feature-top">
-							<img src="images/s5.jpg" class="img-responsive" alt="/">
-									<h5>60 Merrick Way, Miami</h5>
-									<p>Live odia dolor sit amet, consectetuer  elit,… <a href="#">Know More</a></p>
-							</div>
-							<div class="feature-top top2">
-							<img src="images/s6.jpg" class="img-responsive" alt="/">
-									<h5>Villa in Hialeah, Dade</h5>
-									<p>Live odia dolor sit amet, consectetuer  elit,… <a href="#">Know More</a></p>
-							</div>
-							<div class="feature-top top2">
-							<img src="images/s4.jpg" class="img-responsive" alt="/">
-									<h5>Villa in Hialeah, Dade</h5>
-									<p>Live odia dolor sit amet, consectetuer  elit,… <a href="#">Know More</a></p>
-							</div>
-							</marquee>
-						</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>	
+							<div class="idxpres-grids">
+								<div class="idxpres1">
+									
+									<div class="idxpres-right">
+										<h5>Company quality Policy</h5>
+										<div class="idxpresright-bottom">
+											 <p>Bivab developers Pvt. Ltd. is committed to :</p>
+											<ul>
+											<li><i class="glyphicon glyphicon-chevron-right"></i>"Produce eco friendly commercial and residential dwellings of excellence to total customer satisfaction."</li>
+											<li><i class="glyphicon glyphicon-chevron-right"></i>"Continually improve the effectiveness of Quality Management System."</li>
+											<li><i class="glyphicon glyphicon-chevron-right"></i>To deliver projects built on world class values - On time - Every time."</li>
+											<li><i class="glyphicon glyphicon-chevron-right"></i>"To build relationships forever with Customers on the solid foundation of Trust."</li>
+											</ul>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>	
+													
+								
+								<div class="clearfix"></div>
 						
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				</div>
-			</div>
-		</div>
-		
-			<!---Featured Properties--->
-				
-			<!---Featured Properties--->
-			
-			
-<div class="membership">
-				<div class="container">
-					<div class="membership-grids">
-						<div class="col-md-4 membership-grid">
-						
-								<h4>Video</h4>
-								<div class="membership1">
-							<img src="images/v2.jpg" class="img-responsive" alt="/">
-							</div>
 						</div>
-						<div class="col-md-4 membership-grid">
-								<h4>Events</h4>
-							<div class="">
-								<!--<h5>49.99 <span>USD</span></h5>
-								<h6>/ 6 month</h6>
-								<ul class="member">
-									<li>40 Listings</li>
-									<li>10 Featured Listings</li>
-								</ul>-->
-							</div>
-						</div>
-						<div class="col-md-4 membership-grid">
-								<h4>Send Message</h4>
-							<div style="padding-top:20px">
-								<div class="send-message">
-								<form>
-								<input type="text" placeholder="Name">
-								<input type="text" class="mail" placeholder="E-mail">
-								<textarea placeholder="Message"></textarea>
-								<input type="submit" value="Send Message">
-								</form>
-							</div>
+						<div class="col-md-3 about-grid1">
+							<img src="images/s3.jpg" class="img-responsive" alt="/">
+								<div class="clearfix"></div>
 							</div>
 						</div>
 						<div class="clearfix"></div>
 					</div>
+					<!--<div class="about-bottom">
+						<div class="col-md-8 about-bottom1">
+							<h3>Sustainability promise</h3>
+							<div class="about4">
+								<div class="aboutbottom-left">
+									<p>1</p>
+								</div>
+								<div class="aboutbottom-right">
+									<h5>Donec in velit vel ipsum auctor pulvinar</h5>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio.</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="about5">
+								<div class="aboutbottom-left">
+									<p>2</p>
+								</div>
+								<div class="aboutbottom-right">
+									<h5>Praesent justo dolor, lobortis quis, lobortis dignissim</h5>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio.</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="about4">
+								<div class="aboutbottom-left">
+									<p>3</p>
+								</div>
+								<div class="aboutbottom-right">
+									<h5>In pede mi, aliquet sit amet, euismod in,auctor ut, ligula</h5>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio.</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+						<div class="col-md-4 about-bottom2">
+						<h3>Careers</h3>
+						<h5>Praesent justo dolor, lobortis quis, lobortis dignissim</h5>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulumacus ut enim adipiscing alique dolor me.Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+							<a href="#">Please visit the careers section to view our opportunities or to make an enquiry.</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>-->
 				</div>
-			</div>	
-					<!---footer--->
-					<div class="footer-section">
+			</div>
+		</div>
+		<!---footer--->
+			<div class="footer-section">
 						<div class="container">
 							<div class="footer-grids">
 								<div class="col-md-4 footer-grid">
-									<h4>QUICK LINKS</h4>
+									<h4>Recent Posts</h4>
 									<ul>
-										<li><a href="#">Residential</a></li><hr>
-										<li><a href="#">Commercial</a></li><hr>
-										<li><a href="#">Company Profile </a></li><hr>
-										<li><a href="#">FAQ</a></li><hr>
-										<li><a href="#">EMI calculator</a></li><hr>
-										<li><a href="#">Feedback Form</a></li><hr>
-										<li><a href="#">Check List for Loan</a></li><hr>
-										
+										<li><a href="#">Post With Image Format</a></li>
+										<li><a href="#">Example Video Blog Post</a></li>
+										<li><a href="#">Example Post With Gallery Post </a></li>
+										<li><a href="#">Example Video Blog Post</a></li>
+										<li><a href="#">Lorem Post With Image Format</a></li>
+										<li><a href="#">Example Video Blog Post</a></li>
 									</ul>
 								</div>
 								<div class="col-md-4 footer-grid">
-									<h4>TESTIMONIAL</h4>
-									<!--<ul>
+									<h4>Quick links</h4>
+									<ul>
 										<li><a href="index.html">Home</a></li>
 										<li><a href="">About Us</a></li>
 										<li><a href="contact.html">Contact Us </a></li>
 										
-									</ul>-->
+									</ul>
 								</div>
 								<div class="col-md-4 footer-grid">
 									<h4>Get In Touch</h4>
-									<p>Bivab House, Bivav Estate, Baramunda,</p>
-									<p>Phone no :-9437191427 / 9937184695 / 94375 67628 / 94371 91427</p>
-									<p>Email:-biranchi@bivabdevelopers.com</p>
-									<p>Website :- www.bivabdevelopers.com</p>
+									<p>8901 Road</p>
+									<p>Glasg</p>
+									<p>Phone : +1 234 567 890</p>
+									<p>Telephone : +1 234 567 890</p>
+									<p>FAX : + 1 234 567 890</p>
+									<p>E-mail : <a href="mailto:example@mail.com"> example@mail.com</a></p>
 								</div>
 							<div class="clearfix"> </div>
 							</div>
@@ -357,10 +322,10 @@ ul li:hover ul{
 					<!--copy-->
 					<div class="copy-section">
 						<div class="container">
-							<p>&copy; 2016 Real Space. All rights reserved | Design by <a href="http://">bivabdevelopers</a></p>
+							<p>&copy; 2016 Real Space. All rights reserved | Design by <a href="http://Liveodia.com">Liveodia</a></p>
 						</div>
 					</div>
-				<!--copy-->
+		<!--copy-->
 <!-- login -->
 			<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
 				<div class="modal-dialog" role="document">
@@ -424,5 +389,6 @@ ul li:hover ul{
 				</div>
 			</div>
 			<!-- //Register -->
+
 </body>
 </html>

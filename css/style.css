@@ -1,3 +1,10 @@
+hr{ display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;}
 body{
 transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -103,7 +110,7 @@ body{
     width: 26%;
 }
 .navbar-brand h1 a {
-    font-size: 1.3em;
+    font-size: 1.1em;
     text-decoration: none;
 	color: #FFFFFF;
 	font-family: 'PT Sans', sans-serif;
@@ -546,7 +553,7 @@ img.zoom-img {
     color: #fff;
 }
 .membership {
-    padding: 5em 0;
+    padding: 5]1em 0;
 }
 .membership-grids {
     text-align: center;
@@ -615,22 +622,22 @@ div#owl-demo {
     margin-top: 3em;
 }
 .footer-section {
-    background: #222;
+    background: #d9d9f2;
     padding: 5em 0;
 }
 .footer-grid h4 {
     font-size: 1.5em;
-    color: #fff;
+    color: #000;
     margin-bottom: .5em;
 	font-family: 'Righteous', cursive;
 }
 .footer-grid p {
-    font-size: .96em;
+    font-size: 1.4em;
     color: #777;
     line-height: 1.8em;
 }
 .footer-grid ul li a {
-    font-size: .96em;
+    font-size: 1.2em;
     color: #777;
     line-height: 1.8em;
 	text-decoration:none;
@@ -669,7 +676,7 @@ div#owl-demo {
 .banner-section {
     background: url(../images/banner.jpg) no-repeat 0px 0px;
     background-size: cover;
-    min-height: 180px;
+    min-height: 480px;
 	text-align: center;
 	    padding: 5em 0 0;
 }
@@ -874,11 +881,12 @@ a.button3 {
 }
 .forsale-left {
     float: left;
-    width: 29%;
+    width: 100%;
 }
 .forsale-right {
     float: left;
-    width: 71%;
+    width: 100%;
+	font-size:1.1em;
 }
 .forsale-right h5 {
     font-size: 1.2em;
@@ -1628,7 +1636,8 @@ a.view:hover {
 }
 .idxpres-right {
     float: left;
-    width: 71%;
+    width: 100%;
+	font-size: 1.2em;
 }
 .idxpres-right h5 {
     font-size: 1.2em;
@@ -1841,7 +1850,7 @@ a.button2 {
 .properties-middle input[type="text"] {
 	width: 90%;
     padding: .5em 1em;
-    border: 1px solid#ddd;
+    border: 1px solid #000;
     outline: none;
 	margin: .5em 0 .8em 0;
 	    font-size: 1em;
@@ -1850,8 +1859,8 @@ a.button2 {
     margin: 2em 0;
 }
 .properties-middle span {
-    font-size: .965em;
-    color: #777;
+    font-size: 1.3em;
+    color: #000;
 }
 .sel1 {
     width: 90%;
@@ -2561,7 +2570,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     font-size: 1.5em;
 }
 .aboutbottom-left {
-    width: 12%;
+    width: 70%;
     margin-right: 2%;
 }
 .aboutbottom-right {
@@ -2589,7 +2598,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     width: 32%;
 }
 .properties-top h4, .properties-middle h4, .feature h4 {
-    font-size: 1.4em;
+    font-size: 1.8em;
 }
 .video h4 {
     width: 29%;
